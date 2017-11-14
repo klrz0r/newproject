@@ -23,8 +23,8 @@ namespace WindowsFormsApplication16
             c = 0.1;
             b = c/2;
             a = 1.1 - b;
-            richTextBox1.Text = "стоимость лампы: " + a + "$" + System.Environment.NewLine;
-            richTextBox1.Text += "стоимость диода: " + b + "$";
+            richTextBox1.Text = "стоимость лампы: " + a + System.Environment.NewLine;
+            richTextBox1.Text += "стоимость диода: " + b;
             //textBox3.Text = b;
 
         }
